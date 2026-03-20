@@ -1,90 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Alexander Villalona</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial;
-      background: #0a0a0a;
-      color: white;
-    }
-
-    header {
-      text-align: center;
-      padding: 50px;
-      background: linear-gradient(90deg, #000, #111);
-    }
-
-    h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #aaa;
-    }
-
-    .section {
-      padding: 40px;
-    }
-
-    .card {
-      background: #111;
-      padding: 20px;
-      margin: 10px 0;
-      border-radius: 10px;
-    }
-
-    .title {
-      color: #00ffcc;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexander Villalona | Electrical Apprentice Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <div class="brand">Alexander Villalona</div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-<header>
-  <h1>Alexander Villalona</h1>
-  <p>Electrical Apprentice | OSHA 30 Certified</p>
-</header>
+      <section class="hero">
+        <h1>Electrical Apprentice with Hands-On Build Experience</h1>
+        <p>
+          I’m an OSHA 30 certified electrical trade graduate with a strong interest in
+          electrical work, automation, low-voltage systems, smart home technology, custom
+          displays, and automotive electronics. I’m looking for an apprenticeship or
+          entry-level electrical opportunity where I can keep learning in the field and
+          build toward long-term growth in the trade.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="projects.html">View Projects</a>
+          <a class="button secondary" href="mailto:alex.jvillalona@gmail.com">Email Me</a>
+        </div>
+      </section>
+    </div>
+  </header>
 
-<div class="section">
-  <h2 class="title">About Me</h2>
-  <p>
-    Hands-on electrical worker with OSHA 30 certification. Experience in wiring,
-    troubleshooting, low voltage systems, and smart home builds.
-  </p>
-</div>
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-intro">
+          I graduated from Lincoln Tech in Electrical & Electronic Systems Technology and
+          also have a drafting background from Passaic County Technical Institute. Beyond
+          school, I spend a lot of time building real projects involving Home Assistant,
+          ESP32 devices, custom room displays, robotics concepts, and automotive dash ideas.
+        </p>
 
-<div class="section">
-  <h2 class="title">Skills</h2>
-  <div class="card">
-    Electrical Wiring, Troubleshooting, Low Voltage, Soldering, AutoCAD, Blueprint Reading,
-    Conduit Bending, Smart Home Systems
-  </div>
-</div>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>What I’m Looking For</h3>
+            <p>
+              I’m currently seeking an electrical apprenticeship or entry-level role where
+              I can gain more real-world installation and troubleshooting experience, work
+              alongside experienced electricians, and continue improving my technical skills.
+            </p>
+          </div>
 
-<div class="section">
-  <h2 class="title">Projects</h2>
+          <div class="card">
+            <h3>What Interests Me</h3>
+            <p>
+              My strongest interests are electrical systems, low-voltage work, smart home
+              automation, custom electronics, technical layout, diagnostics, and hands-on
+              projects that combine wiring, controls, and design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <div class="card">
-    <h3>Jarvis Smart Home System</h3>
-    <p>Built custom smart home system using ESP32, sensors, and Home Assistant.</p>
-  </div>
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Electrical</h3>
+            <ul class="skills-list">
+              <li>Electrical wiring</li>
+              <li>Electrical troubleshooting</li>
+              <li>Conduit bending</li>
+              <li>Grounding and bonding</li>
+              <li>Blueprint reading</li>
+              <li>NEC fundamentals</li>
+            </ul>
+          </div>
 
-  <div class="card">
-    <h3>Electrical Wiring Projects</h3>
-    <p>Hands-on experience with wiring setups, diagnostics, and installations.</p>
-  </div>
+          <div class="card">
+            <h3>Tools & Diagnostics</h3>
+            <ul class="skills-list">
+              <li>Multimeter</li>
+              <li>Wire stripping</li>
+              <li>Crimping</li>
+              <li>Soldering</li>
+              <li>Hand tools</li>
+              <li>Power tools</li>
+            </ul>
+          </div>
 
-</div>
+          <div class="card">
+            <h3>Technical / Low Voltage</h3>
+            <ul class="skills-list">
+              <li>Low-voltage systems</li>
+              <li>AutoCAD</li>
+              <li>Technical drawing</li>
+              <li>Smart home systems</li>
+              <li>ESP32 / microcontrollers</li>
+              <li>Cabling and wiring harnesses</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="section">
-  <h2 class="title">Contact</h2>
-  <p>Email: alex.jvillalona@gmail.com</p>
-</div>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-intro">
+          These projects reflect the type of work I enjoy most: automation, displays,
+          connected systems, robotics concepts, and automotive electronics.
+        </p>
 
+        <div class="grid grid-2">
+          <a class="card project-card" href="project-home-assistant.html">
+            <img src="images/home-assistant.jpg" alt="Home Assistant smart home project">
+            <div class="project-card-content">
+              <h3>Home Assistant Smart Home</h3>
+              <p>Custom smart home setup with dashboards, room control, sensors, and automation.</p>
+              <div class="project-meta">Automation • Low Voltage • Smart Home</div>
+            </div>
+          </a>
+
+          <a class="card project-card" href="project-robot-arm.html">
+            <img src="images/robot-arm.jpg" alt="Tracked robot arm project">
+            <div class="project-card-content">
+              <h3>Jarvis Tracked Robot Arm</h3>
+              <p>A robotics concept combining tracked movement, control electronics, and future automation.</p>
+              <div class="project-meta">Robotics • Electronics • Control Systems</div>
+            </div>
+          </a>
+
+          <a class="card project-card" href="project-terminal-hud.html">
+            <img src="images/terminal-hud.jpg" alt="Room terminal HUD screen project">
+            <div class="project-card-content">
+              <h3>Room Terminal HUD Screen</h3>
+              <p>A room display project for smart information, dashboards, and custom interface design.</p>
+              <div class="project-meta">Display Systems • UI • Home Assistant</div>
+            </div>
+          </a>
+
+          <a class="card project-card" href="project-crv-dash.html">
+            <img src="images/crv-dash.jpg" alt="CR-V dash screen project">
+            <div class="project-card-content">
+              <h3>CR-V Dash Screen</h3>
+              <p>A custom automotive display project focused on dash integration, wiring, and expansion ideas.</p>
+              <div class="project-meta">Automotive Electronics • Displays • Wiring</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Get in Touch</h3>
+            <p>Email: <a href="mailto:alex.jvillalona@gmail.com">alex.jvillalona@gmail.com</a></p>
+            <p>Phone: <a href="tel:2017496378">(201) 749-6378</a></p>
+            <p>Location: North Haledon, NJ</p>
+          </div>
+
+          <div class="card">
+            <h3>Current Goal</h3>
+            <p>
+              I want to continue building real experience in the electrical field while also
+              growing the technical side of my work through automation, diagnostics, and
+              custom system builds.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Alexander Villalona • Electrical Apprentice Portfolio
+    </div>
+  </footer>
 </body>
 </html>
